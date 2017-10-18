@@ -1,12 +1,11 @@
 body p {
-  width: auto;
-  height: 30vh;
-  margin: 20px;
-  display: block;
-  box-sizing: border-box;
   border: 10px transparent solid;
+  box-sizing: border-box;
+  display: block;
   font-size: 20px;
-
+  height: 30vh;
+  margin: 20px;  
+  width: auto;
 }
 
 body :first-child {
