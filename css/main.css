@@ -1,0 +1,23 @@
+body p {
+  width: auto;
+  height: 30vh;
+  margin: 20px;
+  display: block;
+  box-sizing: border-box;
+  border: 10px transparent solid;
+  font-size: 20px;
+
+}
+
+body :first-child {
+  background-color: #f7b617;
+}
+
+body :first-child + p {
+  background-color: #2b2b2b;
+  color: white;
+}
+
+body :last-child {
+  background-color: #f7b617;
+}
